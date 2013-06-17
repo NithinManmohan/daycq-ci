@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nicolas
+Build-Jdk: 1.6.0_31
+Extension-Name: disk-usage
+Implementation-Title: disk-usage
+Implementation-Version: 0.19
+Plugin-Class: hudson.plugins.disk_usage.DiskUsagePlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: disk-usage
+Long-Name: Jenkins disk-usage plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin
+Plugin-Version: 0.19
+Hudson-Version: 1.447
+Jenkins-Version: 1.447
+Plugin-Dependencies: maven-plugin:1.447,javadoc:1.0
+Plugin-Developers: Vojtech Juranek:vjuranek:
+

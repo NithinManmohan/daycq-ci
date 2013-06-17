@@ -1,0 +1,6 @@
+#Mon Feb 25 13:56:32 CET 2013
+getKey={@inheritDoc} 
+getFileName={@inheritDoc} 
+getPrimaryLineNumber={@inheritDoc} 
+getMessage={@inheritDoc} 
+getPriority={@inheritDoc} 

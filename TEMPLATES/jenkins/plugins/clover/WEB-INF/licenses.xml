@@ -1,0 +1,9 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Clover plugin' groupId='org.jenkins-ci.plugins' artifactId='clover' version='4.0.6' url='http://wiki.jenkins-ci.org/display/JENKINS/Clover+Plugin'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='Clover Ant' groupId='com.cenqua.clover' artifactId='clover' version='3.1.5' url='http://atlassian.com/software/clover'>
+    <l:description>Clover is an award winning code coverage and testing tool for Java.
+         It integrates easily with Maven (1, 2 and 3), Ant, Eclipse and IntelliJ-IDEA.</l:description>
+  </l:dependency>
+</l:dependencies>

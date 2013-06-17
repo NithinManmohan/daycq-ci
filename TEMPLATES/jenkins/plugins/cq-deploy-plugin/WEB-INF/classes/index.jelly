@@ -1,0 +1,6 @@
+<!--
+  This view is used to render the installed plugins page.
+-->
+<div>
+  Plugin to deploy application artifact to the CQ server.
+</div>

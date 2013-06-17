@@ -1,0 +1,2 @@
+#Tue May 07 21:21:49 CEST 2013
+constructor=mavenInstallation,systemFile,reportDirectory,useSonargraphWorkspace,prepareForSonar,architectureViolationsAction,unassignedTypesAction,cyclicElementsAction,thresholdViolationsAction,architectureWarningsAction,workspaceWarningsAction,workItemsAction,emptyWorkspaceAction

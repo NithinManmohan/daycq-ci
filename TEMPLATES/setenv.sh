@@ -7,3 +7,6 @@ export CATALINA_HOME
 
 JAVA_OPTS="-Xmx1024m -Xms512m -server -Djava.awt.headless=true -Djava.util.prefs.systemRoot=$CATALINA_HOME/content/thredds/javaUtilPrefs"
 export JAVA_OPTS
+
+JAVA_HOME="/usr/java/jdk1.7.0_17"
+export JAVA_HOME

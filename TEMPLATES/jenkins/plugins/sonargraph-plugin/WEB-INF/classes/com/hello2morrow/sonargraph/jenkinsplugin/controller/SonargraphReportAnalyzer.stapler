@@ -1,0 +1,2 @@
+#Tue May 07 21:21:49 CEST 2013
+constructor=reportDirectory,reportName,architectureViolationsAction,unassignedTypesAction,cyclicElementsAction,thresholdViolationsAction,architectureWarningsAction,workspaceWarningsAction,workItemsAction,emptyWorkspaceAction

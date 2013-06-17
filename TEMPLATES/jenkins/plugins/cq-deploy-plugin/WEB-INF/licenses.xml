@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='cq-deploy-plugin' version='1.0-SNAPSHOT'>
+  <l:dependency name='cq-deploy-plugin' groupId='org.jenkins-ci.plugins' artifactId='cq-deploy-plugin' version='1.0-SNAPSHOT' url='http://jenkins-ci.org/plugin/cq-deploy-plugin/'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

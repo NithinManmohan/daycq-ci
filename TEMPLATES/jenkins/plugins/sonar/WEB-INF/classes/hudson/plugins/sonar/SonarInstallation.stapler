@@ -1,0 +1,2 @@
+#Thu Apr 18 15:42:18 CEST 2013
+constructor=name,disabled,serverUrl,databaseUrl,databaseDriver,databaseLogin,databasePassword,mojoVersion,additionalProperties,triggers,sonarLogin,sonarPassword

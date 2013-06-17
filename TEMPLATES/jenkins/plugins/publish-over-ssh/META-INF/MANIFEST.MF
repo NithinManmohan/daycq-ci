@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bap
+Build-Jdk: 1.6.0_32
+Extension-Name: publish-over-ssh
+Specification-Title: Send build artifacts over SSH
+Implementation-Title: publish-over-ssh
+Implementation-Version: 1.10
+Group-Id: org.jenkins-ci.plugins
+Short-Name: publish-over-ssh
+Long-Name: Publish Over SSH
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Publish+Over+SSH+Plugin
+Plugin-Version: 1.10
+Hudson-Version: 1.388
+Plugin-Developers: Bap:bap:bap-jenkins@BapIT.co.uk
+

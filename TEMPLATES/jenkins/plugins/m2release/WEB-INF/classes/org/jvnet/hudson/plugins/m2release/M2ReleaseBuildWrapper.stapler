@@ -1,0 +1,2 @@
+#Fri Apr 26 21:03:38 BST 2013
+constructor=releaseGoals,dryRunGoals,selectCustomScmCommentPrefix,selectAppendHudsonUsername,selectScmCredentials,releaseEnvVar,scmUserEnvVar,scmPasswordEnvVar,numberOfReleaseBuildsToKeep

@@ -1,0 +1,4 @@
+#Thu Jul 05 14:59:55 CEST 2012
+getLineCoverage=\ Line coverage. Can be null if this information is not collected.\n
+getPreviousResult=\ Gets the corresponding coverage report object in the previous\n run that has the record.\n\n @return\n      null if no earlier record was found.\n
+getConditionCoverage=\ Line coverage. Can be null if this information is not collected.\n

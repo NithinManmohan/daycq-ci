@@ -1,0 +1,31 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:l="/lib/layout">
+
+<link rel="stylesheet" type="text/css"
+        href="${rootURL}/plugin/testInProgress/css/testEvents.css" />
+<link rel="stylesheet" type="text/css"
+        href="${rootURL}/plugin/testInProgress/jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" />        
+<link rel="stylesheet" type="text/css"
+        href="${rootURL}/plugin/testInProgress/ztree/css/zTreeStyle/zTreeStyle.css" />        
+<l:layout norefresh="true">
+    <st:include it="${it.build}" page="sidepanel.jelly" /> 
+    <l:main-panel>
+		<script type="text/javascript" src="${rootURL}/plugin/testInProgress/jquery/js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="${rootURL}/plugin/testInProgress/jquery/js/jquery-ui-1.10.0.custom.js"></script>
+		<script type="text/javascript" src="${rootURL}/plugin/testInProgress/ztree/js/jquery.ztree.core-3.5.min.js"></script>
+		<script type="text/javascript" src="${rootURL}/plugin/testInProgress/ztree/js/jquery.ztree.exhide-3.5.min.js"></script>
+		<script type="text/javascript" src="${rootURL}/plugin/testInProgress/numeral/numeral.min.js"></script>
+		<script src='${rootURL}/plugin/testInProgress/js/testEvents.js' type='text/javascript'/>
+		<div>
+			<st:bind var="remoteAction" value="${it}"/>
+			<div id="results"/>
+			<script type="text/javascript">
+				jQuery.noConflict();
+				jQuery(function() {
+					testRuns = new TestRuns("results");
+					testRuns.start();				
+				});
+			</script>
+		</div>
+	</l:main-panel>
+</l:layout>
+</j:jelly>

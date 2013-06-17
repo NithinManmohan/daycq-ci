@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hafner
+Build-Jdk: 1.6.0_37
+Extension-Name: pmd
+Specification-Title: This plug-in generates the trend report for PMD, 
+ an    open source static code analysis program.
+Implementation-Title: pmd
+Implementation-Version: 3.34
+Plugin-Class: hudson.plugins.pmd.PmdPlugin
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: pmd
+Long-Name: PMD Plug-in
+Url: http://wiki.jenkins-ci.org/x/GAAHAQ
+Plugin-Version: 3.34
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Dependencies: token-macro:1.5.1;resolution:=optional,maven-plug
+ in:1.424;resolution:=optional,ant:1.1,analysis-core:1.49,dashboard-vi
+ ew:2.2;resolution:=optional
+Plugin-Developers: Ulli Hafner:drulli:ullrich.hafner@gmail.com
+
