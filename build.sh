@@ -1,4 +1,4 @@
-TOMCAT=apache-tomcat-7.0.40
+TOMCAT=apache-tomcat-7.0.41
 SONAR=sonar-3.5.1
 NEXUS=nexus-2.3.1
 JENKINS=jenkins
